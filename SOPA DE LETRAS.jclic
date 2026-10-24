@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="SOPA_DE_LETRAS" version="0.1.3">
+ <settings>
+  <title>Lobo, MIrlo y Sapo - Cuadernillo 1</title>
+  <revision description="created" date="10/5/26" />
+  <author name="Luis Francisco Alvarez Quintana" />
+  <author name="Jonathan Esparza Padilla" />
+  <author name="Gilberto Bracamontes Hernandez" />
+  <organization name="Universidad de Sonora Campus Caborca" />
+  <description>
+   <p>Fase 4 - Lenguajes &#xD;</p>
+  </description>
+  <descriptors area-codes="lleng" level-codes="PRI" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Fase 4 - Lenguajes &#xD;</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Dialogo en equipo" />
+  <item name="Imagen con imagen" />
+  <item name="crucigrama" />
+  <item name="portada" />
+  <item name="Sopa de letras" />
+  <item name="Texto uno" />
+  <item name="Texto dos" />
+  <item name="Texto tres" />
+  <item name="Texto cuatro" />
+  <item name="Texto cinco" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="Dialogo en equipo" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Arial" size="22" />
+      <gradient source="0xCC6600" dest="0xFFFF66" angle="250" />
+     </style>
+     <p>Relaciona las imagenes con los textos correctos</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <gradient source="0xCC6600" dest="0xFFFF66" angle="126" />
+     </style>
+     <p>FELICIDADES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCCC">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="179.0" cellHeight="150.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="Mirlo-resized.jpg">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="Captura de pantalla 2026-10-05 093711.png">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="sapo-resized.jpg">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-05 092339.png">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="170.0" cellHeight="149.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Mirlo</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Lobo</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Sapo</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Sapo,Mirlo y Lobo, Amigos </p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Imagen con imagen" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style />
+     <p>Relaciona las imagenes correctos</p>
+    </cell>
+    <cell border="true" type="final">
+     <style />
+     <p>Terminaste</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+   </settings>
+   <cells rows="4" cols="2" cellWidth="200.0" cellHeight="125.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (1)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.10 AM-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.10 AM (1)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (4)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (5)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (2)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (3)-resized.jpg" />
+   </cells>
+   <cells rows="4" cols="2" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="4" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="Sopa de letras" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <textGrid rows="16" columns="16" cellWidth="35.0" cellHeight="31.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>J***********U***</row>
+     <row>A***********Ñ***</row>
+     <row>B***PEINE***A***</row>
+     <row>O*S*********S***</row>
+     <row>N*H*************</row>
+     <row>**A*************</row>
+     <row>**M*************</row>
+     <row>M*P*********T***</row>
+     <row>A*O***CEPILLO***</row>
+     <row>N*O*********A***</row>
+     <row>ODENTIFRICO*L***</row>
+     <row>S***********L***</row>
+     <row>****AGUA****A***</row>
+     <row>****************</row>
+     <row>*********DUCHA**</row>
+     <row>****************</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">JABON</clue>
+    <clue id="1">AGUA</clue>
+    <clue id="2">CEPILLO</clue>
+    <clue id="3">DENTIFRICO</clue>
+    <clue id="4">TOALLA</clue>
+    <clue id="5">SHAMPOO</clue>
+    <clue id="6">PEINE</clue>
+    <clue id="7">UÑAS</clue>
+    <clue id="8">DUCHA</clue>
+    <clue id="9">MANOS</clue>
+   </clues>
+  </activity>
+  <activity class="@text.Complete" name="Texto uno" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="780" height="580" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="16" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="300" height="300" image="cp.jpg" />
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <text family="Arial" background="0xFFFFFF" size="48">El </text>
+      <target>cepillo</target>
+      <text family="Arial" background="0xFFFFFF" size="48"> sirve para lavarse los dientes</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto dos" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="780" height="580" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" Alignment="1">
+      <cell width="300" height="300" image="toalla.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" />
+     <p family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false">
+      <text family="Arial" background="0xFFFFFF" size="48" bold="false" italic="false">La </text>
+      <target>toalla</target>
+      <text family="Arial" background="0xFFFFFF" size="48" bold="false" italic="false"> sirve para sercarte cuando estás mojado</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto tres" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="780" height="580" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="400" height="200" image="soap_PNG43.png">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="48" bold="false" italic="false">El </text>
+      <target>jabon</target>
+      <text family="Arial" background="0xFFFFFF" size="48" bold="false" italic="false"> ayuda a limpiar la piel y eliminar la suciedad.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto cuatro" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="780" height="580" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="400" height="200" image="comb_PNG137-resized.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="48" bold="false" italic="false">El </text>
+      <target>peine</target>
+      <text family="Arial" background="0xFFFFFF" size="48" bold="false" italic="false"> se utiliza para desenredar y acomodar el cabello.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@text.Complete" name="Texto cinco" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true">
+     <size width="780" height="580" />
+    </window>
+   </settings>
+   <checkButton>Evaluación</checkButton>
+   <document>
+    <style name="targetError" base="target" foreground="0xFF0000" />
+    <style name="target" base="default" foreground="0x0000FF" target="true" />
+    <style name="default" family="Arial" background="0xFFFFFF" size="11" bold="false" italic="false" tabWidth="12" />
+    <section>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" Alignment="1">
+      <cell width="400" height="200" border="false" image="shampoooo-resized.jpg">
+       <style borderStroke="0.7" markerStroke="5.0">
+        <color background="0xFFFFFF" />
+       </style>
+      </cell>
+     </p>
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF" />
+     <p family="Arial" background="0xFFFFFF">
+      <text family="Arial" background="0xFFFFFF" size="48">El </text>
+      <target>shampoo</target>
+      <text family="Arial" background="0xFFFFFF" size="48"> se utiliza para lavar y limpiar el cabello.</text>
+     </p>
+    </section>
+   </document>
+   <evaluator class="@ComplexEvaluator" checkAccents="false" checkPunctuation="false" />
+  </activity>
+  <activity class="@textGrid.CrossWord" name="crucigrama" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0x33FF00" border="true" />
+   </settings>
+   <textGrid rows="19" columns="19" cellWidth="44.0" cellHeight="31.0" border="true">
+    <style borderStroke="3.8" markerStroke="5.0">
+     <color foreground="0x009999" background="0x99CCFF" inactive="0xCCCCFF" />
+    </style>
+    <text>
+     <row>*******************</row>
+     <row>*******************</row>
+     <row>***********DUCHA***</row>
+     <row>***************G***</row>
+     <row>********P***J**U***</row>
+     <row>********E*TOALLA***</row>
+     <row>********I***B******</row>
+     <row>********N***O******</row>
+     <row>*******GERMENES****</row>
+     <row>***********S*******</row>
+     <row>*********CEPILLO***</row>
+     <row>***********O*******</row>
+     <row>********DIENTES****</row>
+     <row>***********J*******</row>
+     <row>*********SHAMPOO***</row>
+     <row>*******************</row>
+     <row>*******************</row>
+     <row>*******************</row>
+     <row>*******************</row>
+    </text>
+   </textGrid>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="acrossClues">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell id="15" item="0" />
+    <cell id="14" item="0">
+     <p>Producto para lavar el cabello</p>
+    </cell>
+    <cell id="14" item="0" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="12" item="0">
+     <p>Se cepillan después de cada comida</p>
+    </cell>
+    <cell id="12" item="0" />
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="9" item="1" />
+    <cell id="9" item="0" />
+    <cell id="10" item="0">
+     <p>Se usa con pasta para limpiar los dientes</p>
+    </cell>
+    <cell id="10" item="0" />
+    <cell id="7" item="2" />
+    <cell id="7" item="0" />
+    <cell id="7" item="1" />
+    <cell id="8" item="0">
+     <p>Microorganismos que causan enfermedades </p>
+    </cell>
+    <cell id="8" item="0" />
+    <cell id="6" item="2" />
+    <cell id="6" item="0" />
+    <cell id="6" item="1" />
+    <cell id="5" item="2" />
+    <cell id="5" item="0" />
+    <cell id="5" item="1">
+     <p>Sirve para secarte después del baño</p>
+    </cell>
+    <cell id="4" item="3" />
+    <cell id="4" item="0" />
+    <cell id="4" item="1" />
+    <cell id="4" item="2" />
+    <cell id="3" item="1" />
+    <cell id="3" item="0" />
+    <cell id="2" item="1" />
+    <cell id="2" item="0" txtAlign="left,middle">
+     <p>Te das una al bañarte, con agua corriente</p>
+    </cell>
+    <cell id="0" item="0" />
+    <cell id="16" item="0" />
+    <cell id="1" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <cells rows="1" cols="3" cellWidth="200.0" cellHeight="60.0" border="true" id="downClues">
+    <style />
+    <cell id="11" item="3" />
+    <cell id="11" item="2">
+     <p>Se usa con jabón para frotar el cuerpo</p>
+    </cell>
+    <cell id="11" item="1" />
+    <cell id="11" item="0" />
+    <cell id="12" item="5" />
+    <cell id="12" item="2" />
+    <cell id="12" item="3" />
+    <cell id="12" item="4" />
+    <cell id="12" item="1">
+     <p>Producto que usas con agua para lavarte las manos</p>
+    </cell>
+    <cell id="12" item="0" />
+    <cell id="13" item="6" />
+    <cell id="13" item="3" />
+    <cell id="13" item="4" />
+    <cell id="13" item="5" />
+    <cell id="13" item="2" />
+    <cell id="13" item="1" />
+    <cell id="13" item="0" />
+    <cell id="14" item="6" />
+    <cell id="14" item="3" />
+    <cell id="14" item="4" />
+    <cell id="14" item="5" />
+    <cell id="14" item="2" />
+    <cell id="14" item="1" />
+    <cell id="14" item="0" />
+    <cell id="15" item="3" />
+    <cell id="15" item="1" />
+    <cell id="15" item="2" />
+    <cell id="15" item="0">
+     <p>Líquido esencial para lavarse</p>
+    </cell>
+    <cell id="10" item="5" />
+    <cell id="10" item="2" />
+    <cell id="10" item="3" />
+    <cell id="10" item="4" />
+    <cell id="10" item="1" />
+    <cell id="10" item="0" />
+    <cell id="9" item="4" />
+    <cell id="9" item="1" />
+    <cell id="9" item="2" />
+    <cell id="9" item="3" />
+    <cell id="9" item="0" />
+    <cell id="8" item="2" />
+    <cell id="8" item="1" />
+    <cell id="8" item="0">
+     <p>Sirve para desenredar el cabello</p>
+    </cell>
+    <cell id="7" item="1" />
+    <cell id="7" item="0" />
+    <cell id="6" item="0" />
+    <cell id="5" item="0" />
+    <cell id="2" item="0" />
+    <cell id="0" item="0" />
+    <cell id="3" item="0" />
+    <cell id="4" item="0" />
+    <cell id="1" item="0" />
+    <cell id="16" item="0" />
+    <cell id="0" />
+    <cell id="1" />
+    <cell id="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Bienvenidos a este repaso sobre la higiene dental</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="1" cols="1" border="true" image="Designer (1)-resized.jpg">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="Designer (1)-resized.jpg" />
+   </cells>
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="comb_PNG137-resized.jpg" file="comb_png137-resized.jpg" />
+  <media name="cp.jpg" file="cp.jpg" />
+  <media name="Designer (1)-resized.jpg" file="designer__1_-resized.jpg" />
+  <media name="Mirlo-resized.jpg" file="mirlo-resized-sopa_de_letras.jpg" />
+  <media name="sapo-resized.jpg" file="sapo-resized-sopa_de_letras.jpg" />
+  <media name="shampoooo-resized.jpg" file="shampoooo-resized.jpg" />
+  <media name="toalla.jpg" file="toalla.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (1)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__1_-resized-sopa_de_letras.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (2)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__2_-resized-sopa_de_letras.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (3)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__3_-resized-sopa_de_letras.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (4)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__4_-resized-sopa_de_letras.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (5)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__5_-resized-sopa_de_letras.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am-resized-sopa_de_letras.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.10 AM (1)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.10_am__1_-resized-sopa_de_letras.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.10 AM-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.10_am-resized-sopa_de_letras.jpg" />
+  <media name="Captura de pantalla 2026-10-05 092339.png" file="captura_de_pantalla_2026-10-05_092339-sopa_de_letras.png" />
+  <media name="Captura de pantalla 2026-10-05 093711.png" file="captura_de_pantalla_2026-10-05_093711-sopa_de_letras.png" />
+  <media name="soap_PNG43.png" file="soap_png43.png" />
+ </mediaBag>
+</JClicProject>
+

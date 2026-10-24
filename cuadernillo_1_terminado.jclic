@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="cuadernillo_1_terminado" version="0.1.3">
+ <settings>
+  <title>Lobo, MIrlo y Sapo - Cuadernillo 1</title>
+  <revision description="created" date="10/5/26" />
+  <author name="Luis Francisco Alvarez Quintana" />
+  <author name="Jonathan Esparza Padilla" />
+  <author name="Gilberto Bracamontes Hernandez" />
+  <organization name="Universidad de Sonora Campus Caborca" />
+  <description>
+   <p>Fase 4 - Lenguajes &#xD;</p>
+  </description>
+  <descriptors area-codes="lleng" level-codes="PRI" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>Fase 4 - Lenguajes &#xD;</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Dialogo en equipo" />
+  <item name="Imagen con imagen" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="Dialogo en equipo" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style borderStroke="0.0" markerStroke="2.7">
+      <font family="Arial" size="22" />
+      <gradient source="0xCC6600" dest="0xFFFF66" angle="250" />
+     </style>
+     <p>Relaciona las imagenes con los textos correctos</p>
+    </cell>
+    <cell type="final">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <gradient source="0xCC6600" dest="0xFFFF66" angle="126" />
+     </style>
+     <p>FELICIDADES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xFFCCCC">
+     <gradient source="0x000000" dest="0xFFFFFF" angle="0" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xFFCCCC" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="179.0" cellHeight="150.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell image="Mirlo-resized.jpg">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="Captura de pantalla 2026-10-05 093711.png">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="sapo-resized.jpg">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Captura de pantalla 2026-10-05 092339.png">
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="170.0" cellHeight="149.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Mirlo</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Lobo</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Sapo</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="4.1">
+      <color background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Sapo,Mirlo y Lobo, Amigos </p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="Imagen con imagen" code="">
+   <description />
+   <messages>
+    <cell border="true" type="initial">
+     <style />
+     <p>Relaciona las imagenes correctos</p>
+    </cell>
+    <cell border="true" type="final">
+     <style />
+     <p>Terminaste</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xCCCCFF" border="true" />
+   </settings>
+   <cells rows="4" cols="2" cellWidth="200.0" cellHeight="125.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="4" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (1)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.10 AM-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.10 AM (1)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (4)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (5)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (2)-resized.jpg" />
+    <cell image="WhatsApp Image 2026-10-07 at 9.33.09 AM (3)-resized.jpg" />
+   </cells>
+   <cells rows="4" cols="2" cellWidth="50.0" cellHeight="30.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="4" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="Mirlo-resized.jpg" file="mirlo-resized-cuadernillo_1_terminado.jpg" />
+  <media name="sapo-resized.jpg" file="sapo-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (1)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__1_-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (2)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__2_-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (3)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__3_-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (4)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__4_-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM (5)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am__5_-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.09 AM-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.09_am-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.10 AM (1)-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.10_am__1_-resized-cuadernillo_1_terminado.jpg" />
+  <media name="WhatsApp Image 2026-10-07 at 9.33.10 AM-resized.jpg" file="whatsapp_image_2026-10-07_at_9.33.10_am-resized-cuadernillo_1_terminado.jpg" />
+  <media name="Captura de pantalla 2026-10-05 092339.png" file="captura_de_pantalla_2026-10-05_092339-cuadernillo_1_terminado.png" />
+  <media name="Captura de pantalla 2026-10-05 093711.png" file="captura_de_pantalla_2026-10-05_093711-cuadernillo_1_terminado.png" />
+ </mediaBag>
+</JClicProject>
+
